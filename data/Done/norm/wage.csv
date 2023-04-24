@@ -1,0 +1,213 @@
+country_name,wage_gap_norm
+Afghanistan,NULL
+Albania,NULL
+Algeria,NULL
+Andorra,NULL
+Angola,NULL
+"Antigua and Barbuda",NULL
+Argentina,0.9340000000000018
+Armenia,NULL
+Aruba,NULL
+Australia,0.20744680851063912
+Austria,-0.07181818181818195
+Azerbaijan,NULL
+"Bahamas, The",NULL
+Bahrain,NULL
+Bangladesh,NULL
+Barbados,NULL
+Belarus,NULL
+Belgium,0.9922727272727304
+Belize,NULL
+Benin,NULL
+Bermuda,NULL
+Bhutan,NULL
+Bolivia,NULL
+"Bosnia and Herzegovina",NULL
+Botswana,NULL
+Brazil,0.5679999999999994
+"British Virgin Islands",NULL
+"Brunei Darussalam",NULL
+Bulgaria,1.2716666666666716
+"Burkina Faso",NULL
+Burundi,NULL
+"Cabo Verde",NULL
+Cambodia,NULL
+Cameroon,NULL
+Canada,-0.25319999999999954
+"Central African Republic",NULL
+Chad,NULL
+"Channel Islands",NULL
+Chile,0.8169999999999974
+China,NULL
+Colombia,0.7553333333333329
+Comoros,NULL
+"Congo, Dem. Rep.",NULL
+"Congo, Rep.",NULL
+"Costa Rica",0.9991666666666642
+"Cote d'Ivoire",NULL
+Croatia,1.1599999999999988
+Cuba,NULL
+Curacao,NULL
+Cyprus,-0.3225000000000003
+Czechia,0.2112500000000003
+Denmark,1.0136842105263109
+Djibouti,NULL
+Dominica,NULL
+"Dominican Republic",NULL
+Ecuador,NULL
+"Egypt, Arab Rep.",NULL
+"El Salvador",NULL
+"Equatorial Guinea",NULL
+Eritrea,NULL
+Estonia,-0.6287499999999995
+Eswatini,NULL
+Ethiopia,NULL
+"Faroe Islands",NULL
+Fiji,NULL
+Finland,-0.3264285714285736
+France,0.5874999999999996
+"French Polynesia",NULL
+Gabon,NULL
+"Gambia, The",NULL
+Georgia,NULL
+Germany,-0.023103448275862075
+Ghana,NULL
+Gibraltar,NULL
+Greece,0.6333333333333342
+Greenland,NULL
+Grenada,NULL
+Guam,NULL
+Guatemala,NULL
+Guinea,NULL
+Guinea-Bissau,NULL
+Guyana,NULL
+Haiti,NULL
+Honduras,NULL
+"Hong Kong SAR, China",NULL
+Hungary,0.8448275862068975
+Iceland,-0.09799999999999957
+India,NULL
+Indonesia,NULL
+"Iran, Islamic Rep.",NULL
+Iraq,NULL
+Ireland,0.3919999999999995
+"Isle of Man",NULL
+Israel,-0.409473684210528
+Italy,0.9371428571428594
+Jamaica,NULL
+Japan,-1.6312765957446818
+Jordan,NULL
+Kazakhstan,NULL
+Kenya,NULL
+Kiribati,NULL
+"Korea, Dem. People's Rep.",NULL
+"Korea, Rep.",-2.1480645161290344
+Kosovo,NULL
+Kuwait,NULL
+"Kyrgyz Republic",NULL
+"Lao PDR",NULL
+Latvia,-0.12250000000000068
+Lebanon,NULL
+Lesotho,NULL
+Liberia,NULL
+Libya,NULL
+Liechtenstein,NULL
+Lithuania,0.5662500000000018
+Luxembourg,1.035000000000002
+"Macao SAR, China",NULL
+Madagascar,NULL
+Malawi,NULL
+Malaysia,NULL
+Maldives,NULL
+Mali,NULL
+Malta,0.8399999999999991
+"Marshall Islands",NULL
+Mauritania,NULL
+Mauritius,NULL
+Mexico,0.2953333333333315
+"Micronesia, Fed. Sts.",NULL
+Moldova,NULL
+Mongolia,NULL
+Montenegro,NULL
+Morocco,NULL
+Mozambique,NULL
+Myanmar,NULL
+Namibia,NULL
+Nepal,NULL
+Netherlands,0.33625
+"New Caledonia",NULL
+"New Zealand",0.6293939393939377
+Nicaragua,NULL
+Niger,NULL
+Nigeria,NULL
+"North Macedonia",NULL
+Norway,1.0544000000000022
+Oman,NULL
+Pakistan,NULL
+Palau,NULL
+Panama,NULL
+"Papua New Guinea",NULL
+Paraguay,NULL
+Peru,NULL
+Philippines,NULL
+Poland,0.3475000000000017
+Portugal,0.3628571428571424
+"Puerto Rico",NULL
+Qatar,NULL
+Romania,1.126250000000001
+"Russian Federation",NULL
+Rwanda,NULL
+Samoa,NULL
+"San Marino",NULL
+"Sao Tome and Principe",NULL
+"Saudi Arabia",NULL
+Senegal,NULL
+Serbia,NULL
+Seychelles,NULL
+"Sierra Leone",NULL
+Singapore,NULL
+"Sint Maarten (Dutch part)",NULL
+"Slovak Republic",0.20749999999999966
+Slovenia,1.2000000000000004
+"Solomon Islands",NULL
+Somalia,NULL
+"South Africa",NULL
+"South Sudan",NULL
+Spain,0.7142857142857133
+"Sri Lanka",NULL
+"St. Kitts and Nevis",NULL
+"St. Lucia",NULL
+"St. Martin (French part)",NULL
+"St. Vincent and the Grenadines",NULL
+Sudan,NULL
+Suriname,NULL
+Sweden,0.8037037037037003
+Switzerland,-0.19923076923076788
+"Syrian Arab Republic",NULL
+Tajikistan,NULL
+Tanzania,NULL
+Thailand,NULL
+Timor-Leste,NULL
+Togo,NULL
+Tonga,NULL
+"Trinidad and Tobago",NULL
+Tunisia,NULL
+Turkiye,1.222500000000003
+Turkmenistan,NULL
+"Turks and Caicos Islands",NULL
+Tuvalu,NULL
+Uganda,NULL
+Ukraine,NULL
+"United Arab Emirates",NULL
+"United Kingdom",-1.0455769230769374
+"United States",-0.7828571428571409
+Uruguay,NULL
+Uzbekistan,NULL
+Vanuatu,NULL
+"Venezuela, RB",NULL
+Vietnam,NULL
+"Virgin Islands (U.S.)",NULL
+"West Bank and Gaza",NULL
+"Yemen, Rep.",NULL
+Zambia,NULL
+Zimbabwe,NULL

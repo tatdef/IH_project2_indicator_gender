@@ -1,4 +1,57 @@
+/*start from here !!!!!!!*/
+
 CREATE DATABASE IF NOT EXISTS indicator;
+
+/*Create tables in your database (based on data/done/norm) :  
+- first_four_norms_indicators
+- fifth_indicator  
+- lgbt_equality_index_final
+- wage 
+And then you can run the two queries below to (1) create the table gender1, 
+(2) query that table to get the indicator information. */ 
+
+CREATE TABLE gender1
+SELECT 
+	four.country_name,
+    four.fertility_norm,
+    four.life_expect_norm,
+    four.births_attended_norm,
+    four.parliament_norm,
+    fifth.school_norm,
+    lgbt.lgbt_equality_index_normalized,
+    wage.wage_gap_norm
+FROM 
+first_four_norms_indicators four
+LEFT JOIN fifth_indicator fifth USING(country_name)
+LEFT JOIN lgbt_equality_index_final lgbt USING (country_name)
+LEFT JOIN wage wage using(country_name);
+
+/* The query below allows to get a composite indicator regarding gender in several countries
+it has some limitations : 
+- you can add the wage gap norm at the end of the query, but most of the countries will return null as this indicator 
+was not available for all countries ; 
+- we didn't include, at the moment, the WBLI (women business and the law) indicator 
+https://genderdata.worldbank.org/indicators/sg-law-indx/
+we have it available, but we lack the time at this point. */
+
+/*FINALLY, remember you can amend the query below in order to get results for a specific country, by using a "where" clause.
+Have FUN ! Yey ! */ 
+
+USE indicator;
+SELECT country_name, (births_attended_norm +parliament_norm+school_norm+lgbt_equality_index_normalized-fertility_norm) as composite_indicator
+FROM gender1
+ORDER BY composite_indicator desc;
+
+
+-- ARCHIVE 
+
+-- SELECT country, life_expectancy_diff
+-- FROM indicator.life_expectancy;
+
+/*SELECT country_name, stddev(GPI_school_enroll_Prim_Sec)
+FROM indicator.school_enrollment
+GROUP BY country_name ;*/
+
 
 use indicator;
 SELECT 
@@ -33,38 +86,5 @@ FROM fertility fert
 LEFT JOIN employees_wage_gap_index wage USING(country_code)
 GROUP BY fert.country_name; 
 -- wage 
-
-CREATE TABLE gender1
-SELECT 
-	four.country_name,
-    four.fertility_norm,
-    four.life_expect_norm,
-    four.births_attended_norm,
-    four.parliament_norm,
-    fifth.school_norm,
-    lgbt.lgbt_equality_index_normalized,
-    wage.wage_gap_norm
-FROM 
-first_four_norms_indicators four
-LEFT JOIN fifth_indicator fifth USING(country_name)
-LEFT JOIN lgbt_equality_index_final lgbt USING (country_name)
-LEFT JOIN wage wage using(country_name);
-
-SELECT country_name, (IFNULL(births_attended_norm,0) + IFNULL(parliament_norm,0) + IFNULL(school_norm,0) + IFNULL(lgbt_equality_index_normalized,0) + IFNULL(wage_gap_norm,0) - IFNULL(fertility_norm,0) as index
-FROM indicator.gender1;
-
-
-/*
--fertility_norm -life_expect_norm + births_attended_norm + parliament_norm + school_norm +lgbt_equality_index_normalized +wage_gap_norm
-
--- if possible add WBLI 
-
---
--- SELECT country, life_expectancy_diff
--- FROM indicator.life_expectancy;
-
-/*SELECT country_name, stddev(GPI_school_enroll_Prim_Sec)
-FROM indicator.school_enrollment
-GROUP BY country_name ;*/
 
 
