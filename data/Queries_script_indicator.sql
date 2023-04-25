@@ -45,6 +45,7 @@ SELECT
 	country_name, 
 	(births_attended_norm +parliament_norm+school_norm+lgbt_equality_index_normalized-fertility_norm) as composite_indicator
 FROM gender1
+where country_name like "U%"
 ORDER BY composite_indicator desc;
 
 
