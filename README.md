@@ -41,13 +41,13 @@ Our **data sources** were the World Bank data website (https://genderdata.worldb
 * LGBT World Equality index - index/100: https://www.equaldex.com/equality-index 
 
 Other, non-used indicators data collected 
-*- maternal mortality ratio (as reflecting healthcare) DOWN
-*- anemia in non-pregnant women - https://genderdata.worldbank.org/indicators/sh-anm-nprg-zs 
-*- obesity rate per gender  
-*- Saved for old age (% age 15+) gender difference - DOWN
-*- Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)
-*- unemployment gender gap - Unemployment (%) - DOWN
-*- Women, Business and the Law: Assets Indicator Score (scale 1-100) - DOWN
-*- literacy rate - https://genderdata.worldbank.org/indicators/se-adt?gender=gender-gap - DOWN
-*- part time employment % gender gap - DOWN
+* maternal mortality ratio (as reflecting healthcare) DOWN
+* anemia in non-pregnant women - https://genderdata.worldbank.org/indicators/sh-anm-nprg-zs 
+* obesity rate per gender  
+* Saved for old age (% age 15+) gender difference - DOWN
+* Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)
+* unemployment gender gap - Unemployment (%) - DOWN
+* Women, Business and the Law: Assets Indicator Score (scale 1-100) - DOWN
+* literacy rate - https://genderdata.worldbank.org/indicators/se-adt?gender=gender-gap - DOWN
+* part time employment % gender gap - DOWN
 
