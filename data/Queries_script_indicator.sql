@@ -32,13 +32,18 @@ it has some limitations :
 was not available for all countries ; 
 - we didn't include, at the moment, the WBLI (women business and the law) indicator 
 https://genderdata.worldbank.org/indicators/sg-law-indx/
-we have it available, but we lack the time at this point. */
+- as well as the female labor force with intermediate education
+we have them available, but we lacked the time at this point. */
 
 /*FINALLY, remember you can amend the query below in order to get results for a specific country, by using a "where" clause.
 Have FUN ! Yey ! */ 
 
+Select * from gender1;
+
 USE indicator;
-SELECT country_name, (births_attended_norm +parliament_norm+school_norm+lgbt_equality_index_normalized-fertility_norm) as composite_indicator
+SELECT 
+	country_name, 
+	(births_attended_norm +parliament_norm+school_norm+lgbt_equality_index_normalized-fertility_norm) as composite_indicator
 FROM gender1
 ORDER BY composite_indicator desc;
 
